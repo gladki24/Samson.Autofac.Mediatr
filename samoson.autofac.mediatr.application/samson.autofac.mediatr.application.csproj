@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\samoson.autofac.mediatr.interface\samson.autofac.mediatr.interfaces.csproj" />
+    <ProjectReference Include="..\samson.autofac.mediatr.infrastructure\samson.autofac.mediatr.infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
