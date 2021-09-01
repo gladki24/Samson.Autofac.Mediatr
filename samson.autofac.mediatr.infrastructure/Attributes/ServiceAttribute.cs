@@ -1,4 +1,4 @@
-﻿namespace samson.autofac.mediatr.infrastructure.Attribiutes
+﻿namespace samson.autofac.mediatr.infrastructure.Attributes
 {
     /// <summary>
     /// Attribute to decorate service class

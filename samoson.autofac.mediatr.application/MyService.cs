@@ -1,5 +1,5 @@
 ﻿using samoson.autofac.mediatr.interfaces;
-using samson.autofac.mediatr.infrastructure.Attribiutes;
+using samson.autofac.mediatr.infrastructure.Attributes;
 using System;
 
 namespace samoson.autofac.mediatr.application
