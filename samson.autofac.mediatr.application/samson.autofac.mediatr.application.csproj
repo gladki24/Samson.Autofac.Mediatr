@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\samson.autofac.mediatr.interface\samson.autofac.mediatr.interfaces.csproj" />
+    <ProjectReference Include="..\samoson.autofac.mediatr.interface\samson.autofac.mediatr.interfaces.csproj" />
     <ProjectReference Include="..\samson.autofac.mediatr.infrastructure\samson.autofac.mediatr.infrastructure.csproj" />
   </ItemGroup>
 

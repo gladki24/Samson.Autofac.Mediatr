@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samson.autofac.mediatr", "samson.autofac.mediatr\samson.autofac.mediatr.csproj", "{3793684E-F62B-4A40-8256-CBD6A3D4693A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samson.autofac.mediatr.interfaces", "samoson.autofac.mediatr.interface\samson.autofac.mediatr.interfaces.csproj", "{B9CBBEFF-3DD2-44C6-A372-93DF43146422}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samson.autofac.mediatr.interfaces", "samson.autofac.mediatr.interface\samson.autofac.mediatr.interfaces.csproj", "{B9CBBEFF-3DD2-44C6-A372-93DF43146422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samson.autofac.mediatr.application", "samoson.autofac.mediatr.application\samson.autofac.mediatr.application.csproj", "{D362439B-D606-4393-ABBE-2123336AF276}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samson.autofac.mediatr.application", "samson.autofac.mediatr.application\samson.autofac.mediatr.application.csproj", "{D362439B-D606-4393-ABBE-2123336AF276}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samson.autofac.mediatr.infrastructure", "samson.autofac.mediatr.infrastructure\samson.autofac.mediatr.infrastructure.csproj", "{0F47F586-852E-41BF-A3C4-275B18632816}"
 EndProject
