@@ -11,7 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\samoson.autofac.mediatr.application\samson.autofac.mediatr.application.csproj" />
+    <ProjectReference Include="..\samson.autofac.mediatr.application\samson.autofac.mediatr.application.csproj" />
+    <ProjectReference Include="..\samson.autofac.mediatr.application\samson.autofac.mediatr.application.csproj" />
     <ProjectReference Include="..\samson.autofac.mediatr.infrastructure\samson.autofac.mediatr.infrastructure.csproj" />
   </ItemGroup>
 

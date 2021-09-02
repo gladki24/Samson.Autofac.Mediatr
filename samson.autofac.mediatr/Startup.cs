@@ -63,6 +63,13 @@ namespace samson.autofac.mediatr
                 .RegisterType<Mediator>()
                 .As<IMediator>()
                 .InstancePerLifetimeScope();
+
+            container
+                .Register<ServiceFactory>(context =>
+                {
+                    var component = context.Resolve<IComponentContext>();
+                    return type => component.Resolve(type);
+                });
         }
 
         /// <summary>

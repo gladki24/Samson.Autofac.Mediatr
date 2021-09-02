@@ -1,5 +1,7 @@
-﻿using Autofac;
-using samoson.autofac.mediatr.application;
+﻿using System.Threading.Tasks;
+using Autofac;
+using samson.autofac.mediatr.application;
+using samson.autofac.mediatr.infrastructure.Interfaces;
 
 namespace samson.autofac.mediatr
 {
@@ -12,8 +14,11 @@ namespace samson.autofac.mediatr
 
             using (var scope = container.BeginLifetimeScope())
             {
-                var service = scope.Resolve<MyService>();
-                System.Console.WriteLine(service.GetHelloMessage());
+                var gate = scope.Resolve<IGate>();
+                var command = new MyCommand("Mark");
+
+                var result = gate.Dispatch<MyCommand, string>(command);
+                System.Console.WriteLine(result.Result);
             }
         }
     }

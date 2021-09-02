@@ -4,13 +4,20 @@ using System;
 
 namespace samoson.autofac.mediatr.application
 {
+    /// <summary>
+    /// Example service implementation
+    /// </summary>
     [Service]
     public class MyService : IMyService
     {
-       
-        public string GetHelloMessage()
+        /// <summary>
+        /// Return welcoming message for user
+        /// </summary>
+        /// <param name="name">Name of user</param>
+        /// <returns>Formatted welcoming message</returns>
+        public string GetHelloMessage(string name)
         {
-            return "Hello Autofac!";
+            return $"Hello {name}!";
         }
     }
 }

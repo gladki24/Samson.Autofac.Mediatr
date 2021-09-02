@@ -13,7 +13,7 @@ namespace samson.autofac.mediatr.infrastructure.Classes
         /// <summary>
         /// Command to handle
         /// </summary>
-        private TCommand _command;
+        public TCommand Command { get; }
 
         /// <summary>
         /// Default constructor
@@ -21,7 +21,7 @@ namespace samson.autofac.mediatr.infrastructure.Classes
         /// <param name="command">Command to handle</param>
         public CommandRequest(TCommand command)
         {
-            _command = command ?? throw new ArgumentException(nameof(command));
+            Command = command ?? throw new ArgumentException(nameof(command));
         }
     }
 }

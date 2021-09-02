@@ -2,8 +2,16 @@
 
 namespace samoson.autofac.mediatr.interfaces
 {
+    /// <summary>
+    /// Example of service
+    /// </summary>
     public interface IMyService
     {
-        public string GetHelloMessage();
+        /// <summary>
+        /// Return welcoming message for user
+        /// </summary>
+        /// <param name="name">Name of user</param>
+        /// <returns>Formatted welcoming message</returns>
+        public string GetHelloMessage(string name);
     }
 }
